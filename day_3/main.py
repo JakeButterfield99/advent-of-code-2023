@@ -152,7 +152,6 @@ def get_numbers(lines):
 
             if(is_breakpoint(char) and (number != "")):
                 save_number(number, number_valid)
-
                 number = ""
                 number_valid = False
 
